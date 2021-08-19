@@ -1,1 +1,46 @@
-oooba
+nav {
+    /* text-transform: uppercase; */
+    letter-spacing: 2px;
+    background: black;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    opacity: 0.8;
+    display: flex;
+}
+  
+img{
+    width: 75px;
+    height: 60px;
+}
+  
+.nav-links{
+    display: flex;
+}
+  
+.nav-links a {
+    padding-top: 10px;
+    text-decoration: none;
+    color: darkgray;
+    margin: 10px;
+    font-size: 18px;
+
+    }
+
+.nav-links a:hover {
+    background-color: grey;
+    color: black;
+}
+
+#aboutusparagraph1 {
+    position: absolute;
+    display: table-cell;
+    vertical-align: bottom;
+    border: 1px solid #f00;
+    height: 250px;
+    width: 1000px;
+    top: 100px;
+    left: 0px;
+    margin-left: 20px;
+}
+
